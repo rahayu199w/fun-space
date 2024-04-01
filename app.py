@@ -8,3 +8,14 @@ def hitungLuasSegitiga(a,t):
 alas = float(input('Input alas segitiga: '))
 tinggi = float(input('Input tinggi segitiga: '))
 print('Luas segitiga = ',hitungLuasSegitiga(alas, tinggi))
+
+print('##  Program Python Menghitung Luas Persegi Panjang  ##')
+print('======================================================')
+print()
+ 
+def hitungLuasPersegiPanjang(p,l):
+  return round(p * l,2)
+ 
+panjang = float(input('Input panjang persegi: '))
+lebar = float(input('Input lebar persegi: '))
+print('Luas persegi panjang = ',hitungLuasPersegiPanjang(panjang, lebar))
