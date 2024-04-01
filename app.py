@@ -19,3 +19,13 @@ def hitungLuasPersegiPanjang(p,l):
 panjang = float(input('Input panjang persegi: '))
 lebar = float(input('Input lebar persegi: '))
 print('Luas persegi panjang = ',hitungLuasPersegiPanjang(panjang, lebar))
+
+print('##  Program Python Menghitung Luas Lingkaran  ##')
+print('================================================')
+print()
+ 
+def hitungLuasLingkaran(r):
+  return round(3.14 * r * r, 2)
+ 
+jari2 = float(input('Input jari-jari lingkaran:  '))
+print('Luas lingkaran = ',hitungLuasLingkaran(jari2))
